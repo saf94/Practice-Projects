@@ -1,0 +1,68 @@
+html {
+    font-family: helvetica;
+    color: white;
+}
+
+main {
+    margin: 20vh auto;
+    height: 500px;
+    width: 500px;
+    background-color: #FF5252;
+    border-radius: 20%;
+}
+
+main > h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#innercircle {
+    margin: 0 auto;
+    height: 250px;
+    width: 250px;
+    border-style: solid;
+    border-width: 12px;
+    border-radius: 100%;
+    border-color: white;
+    position: relative;
+}
+
+#toggles {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+#toggles1 {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+#toggles2 {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.block {
+    display: block;
+    text-align: center;
+}
+
+#innercircle > p {
+    text-align: center;
+    width: 250px;
+    margin-top: 33%;
+    font-size: 72px;
+}
+
+#innercircle {
+    cursor: pointer;
+}
+
+#sessionadd {
+    cursor: pointer;
+}
+
+#sessionminus {
+    cursor: pointer;
+}
